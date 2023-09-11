@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+    background-color: #C8FFE0;
+    width: 100%;
+    
+ }
+ 
+.top-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #9AD0EC;
+    margin-bottom: 50px;
+   }
+    h1 {
+      color: midnightblue;
+        font-size: 5rem;
+        font-family: cursive;
+        text-align: center;
+    }
+    h2 {
+      color:midnightblue;
+        font-size: 3rem;
+        font-family: cursive;
+        padding-left: 30%;
+  
+      
+    }
+    h3 {
+      color:midnightblue;
+        font-size: 2rem; 
+        text-align:left;
+        padding-left: 50px;
+       padding-top: 2%;
+       padding-bottom: 5%;
+    }
+    
+  .left {
+    float: left;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .profile-img {
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 50px;
+    margin-bottom:50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    align-items: center;
+  }
+
+  .card-text {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-bottom: 10%;
+     width: 70%
+  }
+
+  .resume{
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+  }
+
+ img {
+  height: 300px;
+  margin-left: 25%;
+ }
+
+  p {
+    width: 60%;
+    font-size: 1.5rem;
+    margin-left: 10%;
+  }
+
+#education {
+    list-style: none;
+    font-size: 1.5rem;
+    margin-left: 10%;   
+    }
+
+    a {
+      margin-left:50px;
+      padding-bottom: 5%;
+    }
+
+  hr {
+    border: 1px dashed #009FBD;
+    width: 90%;
+  }
+    
+  .contact {
+    margin-left: 10%;
+    font-size: 1.5rem;
+   }
+
+  .footer {
+    background-color: #9AD0EC;
+    height: 150px; 
+    }
+
+  .copyright {
+      display: flex;
+      flex:  1;
+      height: 20vh;
+      align-items: center; 
+      justify-content: center;
+      width: 60%;
+      font-size: 1.5rem;
+    }
+
+  @media(max-width:680px) {
+      .profile-img {
+        height: 150px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+      h3 {
+      font-size: 1.2rem;
+    }
+      .card { 
+      font-size: 1.5rem;
+        flex-direction: column;
+        width: 60%; 
+      }
+  .card-text  {    
+    font-size: 1.2rem;
+    width: 85%;
+     }
+
+  .resume {
+    width: 50%;
+    }
+  #education {
+     font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    width: 85%;
+  }
+
+  img {
+    height: 150px;
+  }
+.contact {
+ font-size: 1.2rem;
+ margin-left: 5%;
+}
+  .copyright {
+    font-size: 1.2rem
+
+  }
+  }
